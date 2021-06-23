@@ -1,7 +1,7 @@
 ﻿
 namespace Proyecto_Prim
 {
-    partial class Form1
+    partial class Principal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -92,7 +92,7 @@ namespace Proyecto_Prim
             this.lbl_peso_final.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.lbl_peso_final.Location = new System.Drawing.Point(1282, 486);
             this.lbl_peso_final.Name = "lbl_peso_final";
-            this.lbl_peso_final.Size = new System.Drawing.Size(289, 49);
+            this.lbl_peso_final.Size = new System.Drawing.Size(231, 39);
             this.lbl_peso_final.TabIndex = 11;
             this.lbl_peso_final.Text = "Distancia mín:";
             // 
@@ -112,7 +112,7 @@ namespace Proyecto_Prim
             this.lbl_ARISTAS.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.lbl_ARISTAS.Location = new System.Drawing.Point(1284, 98);
             this.lbl_ARISTAS.Name = "lbl_ARISTAS";
-            this.lbl_ARISTAS.Size = new System.Drawing.Size(145, 49);
+            this.lbl_ARISTAS.Size = new System.Drawing.Size(116, 39);
             this.lbl_ARISTAS.TabIndex = 13;
             this.lbl_ARISTAS.Text = "Nodos";
             // 
@@ -122,7 +122,7 @@ namespace Proyecto_Prim
             this.lbl_PESOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.lbl_PESOS.Location = new System.Drawing.Point(1548, 98);
             this.lbl_PESOS.Name = "lbl_PESOS";
-            this.lbl_PESOS.Size = new System.Drawing.Size(198, 49);
+            this.lbl_PESOS.Size = new System.Drawing.Size(158, 39);
             this.lbl_PESOS.TabIndex = 14;
             this.lbl_PESOS.Text = "Distancia";
             // 
@@ -234,7 +234,7 @@ namespace Proyecto_Prim
             this.lbl_etiqueta_matriz.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_etiqueta_matriz.Location = new System.Drawing.Point(655, 576);
             this.lbl_etiqueta_matriz.Name = "lbl_etiqueta_matriz";
-            this.lbl_etiqueta_matriz.Size = new System.Drawing.Size(255, 36);
+            this.lbl_etiqueta_matriz.Size = new System.Drawing.Size(204, 29);
             this.lbl_etiqueta_matriz.TabIndex = 25;
             this.lbl_etiqueta_matriz.Text = "MATRIZ INICIAL:";
             // 
@@ -244,11 +244,11 @@ namespace Proyecto_Prim
             this.lbl_etiqueta_matriz_final.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_etiqueta_matriz_final.Location = new System.Drawing.Point(1284, 585);
             this.lbl_etiqueta_matriz_final.Name = "lbl_etiqueta_matriz_final";
-            this.lbl_etiqueta_matriz_final.Size = new System.Drawing.Size(236, 36);
+            this.lbl_etiqueta_matriz_final.Size = new System.Drawing.Size(189, 29);
             this.lbl_etiqueta_matriz_final.TabIndex = 26;
             this.lbl_etiqueta_matriz_final.Text = "MATRIZ FINAL:";
             // 
-            // Form1
+            // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -272,7 +272,7 @@ namespace Proyecto_Prim
             this.Controls.Add(this.lbl_enlace);
             this.Controls.Add(this.btn_prueba);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form1";
+            this.Name = "Principal";
             this.Text = " Proyecto PRIM  -  HERRADA";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pBx_GRAFO)).EndInit();

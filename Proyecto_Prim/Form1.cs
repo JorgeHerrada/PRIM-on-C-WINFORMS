@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Proyecto_Prim
 {
-    public partial class Form1 : Form
+    public partial class Principal : Form
     {
         bool algoritmo_aplicado = false;
-        public Form1()
+        public Principal()
         {
             InitializeComponent();
         }
